@@ -4,7 +4,7 @@ On-device grammar, punctuation and style checking with 40+ explainable rules. Ev
 
 **Live demo: https://akash991833.github.io/grammar-corrector/**
 
-![Issues and score](docs/screenshot-desktop.png)
+![Issues and score](screenshots/desktop-light.png)
 
 ## Features
 
@@ -14,7 +14,7 @@ On-device grammar, punctuation and style checking with 40+ explainable rules. Ev
 - **Writing score** ring that updates with every check.
 - **Dark and light mode**, mobile friendly, installable PWA.
 
-![Mobile](docs/screenshot-mobile.png)
+![Mobile](screenshots/mobile-light.png)
 
 ## Honest limits
 
