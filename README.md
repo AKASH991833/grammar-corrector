@@ -29,3 +29,19 @@ Vanilla HTML/CSS/JS, zero network calls. Your text never leaves the page.
 ```bash
 python3 -m http.server 8000
 ```
+
+---
+
+## 🐍 Python version (real ML backend) - `python-app/`
+
+The browser demo above is fully client-side. This folder is the **pro-grade version** with a real training pipeline on real data:
+
+Neural grammar correction with a T5 model fine-tuned for grammatical error correction - catches subject-verb agreement, articles, tense and more, with a change-by-change explanation. Stack: Python, Gradio, Transformers (CPU).
+
+```bash
+cd python-app
+pip install -r requirements.txt
+python app.py
+```
+
+Deploy free on **Hugging Face Spaces** (no card): create a Space, upload the `python-app/` folder - it ships Space-ready (`sdk` + `app_file` already set in its README).
